@@ -2,7 +2,7 @@ package com.gestionbiblioteca.controller;
 
 import java.util.List;
 
-import com.gestionbiblioteca.dto.Libro;
+import com.gestionbiblioteca.model.Libro;
 import com.gestionbiblioteca.service.LibrosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

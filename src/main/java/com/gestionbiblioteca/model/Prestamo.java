@@ -1,4 +1,4 @@
-package com.gestionbiblioteca.dto;
+package com.gestionbiblioteca.model;
 
 
 import jakarta.persistence.Column;

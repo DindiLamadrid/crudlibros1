@@ -1,6 +1,6 @@
 package com.gestionbiblioteca.service;
 
-import com.gestionbiblioteca.dto.Libro;
+import com.gestionbiblioteca.model.Libro;
 import com.gestionbiblioteca.repository.LibrosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
