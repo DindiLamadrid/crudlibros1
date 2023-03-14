@@ -1,10 +1,10 @@
-package com.co.ias.crudlibros;
+package com.gestionbiblioteca;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudlibrosApplicationTests {
+class GestionbibliotecaApplicationTests {
 
 	@Test
 	void contextLoads() {

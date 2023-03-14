@@ -1,4 +1,5 @@
-package com.co.ias.crudlibros.controller.dto;
+package com.gestionbiblioteca.dto;
+
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,8 +11,11 @@ import jakarta.persistence.Table;
 public class Prestamo {
     @Id
     @Column
+    private int id;
+    @Column
     private String nombre;
+    @Column
     private int cantDias;
+    @Column
     private boolean devuelto;
-
 }
